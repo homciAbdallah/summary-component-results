@@ -99,27 +99,38 @@ main section:last-child {
 .side>div>svg {
   margin-right: 5px;
 }
-.side>div:first-child h4 {
+
+.side>div:first-child  {
   color: var(--Lightred);
+  font-size: 16px;
+  font-weight: 700;
 }
+.side>div:nth-child(2)  {
+  color: var(--Orangeyyellow);
+  font-size: 16px;
+  font-weight: 700;
+}
+.side>div:nth-child(3)  {
+  color: var(--Greenteal);
+  font-size: 16px;
+  font-weight: 700;
+}
+.side>div:last-child  {
+  color: var(--Cobaltblue);
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .side>div:first-child {
   background: hsla(0, 100%, 67%, 0.05);
-}
-.side>div:nth-child(2) h4 {
-  color: var(--Orangeyyellow);
 }
 .side>div:nth-child(2) {
   background: hsla(39, 100%, 56%, 0.05);
 }
-.side>div:nth-child(3) h4 {
-  color: var(--Greenteal);
-}
 .side>div:nth-child(3) {
   background: hsla(166, 100%, 37%, 0.05);
 }
-.side>div:last-child h4 {
-  color: var(--Cobaltblue);
-}
+
 .side>div:last-child {
   background: hsla(234, 85%, 45%, 0.05);
 }
